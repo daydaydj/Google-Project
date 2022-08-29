@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 100px;
+  display: flex;
+}
+input {
+  width: 500px;
+  height: 30px;
+  border-radius: 30px;
+  margin: 35px 0px;
+  padding-left: 32px;
+}
+.fa-search {
+  position: relative;
+  left: 32px;
+}
+.fa-microphone {
+  position: relative;
+  right: 32px;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 4px 10px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  padding: 4px 10px;
+}
+button:focus {
+  background-color: white;
+  color: black;
+  padding: 4px 10px;
+}
+.Services {
+  margin-top: 10px;
+}
+.G {
+  color: blue;
+}
+.O {
+  color: red;
+}
+.o {
+  color: yellow;
+}
+.g {
+  color: blue;
+}
+.l {
+  color: green;
+}
+.e {
+  color: red;
+}
+@media screen and (max-width: 600px) {
+  input {
+    width: 90vw;
+  }
+}
